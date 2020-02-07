@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Portfolio - Gary McHugh</title>
+
+    <!-- Custom fonts for this theme -->
+    <link href="@Url.Content("~/Content/vendor/fontawesome-free/css/all.min.css")" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="@Url.Content("~/Content/css/freelancer.min.css")" rel="stylesheet">
+
+</head>
+<body id="page-top">
+
+    <!-- Navigation --> 
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Gary McHugh</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @RenderBody()   
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+
+                <!-- Footer Location -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                </div>
+
+                <!-- Footer Social Icons -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/GaryMcHugh" target="_blank">
+                        <i class="fab fa-fw fa-github"></i>
+                    </a>        
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/TechC_Daily" target="_blank">
+                        <i class="fab fa-fw fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/gary-mchugh-software/" target="_blank">
+                        <i class="fab fa-fw fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="mailto:garymchughsoftware@outlook.com" target="_blank">
+                        <i class="fab fa fa-envelope"></i>
+                    </a>
+                </div>
+
+                <!-- Footer About Text -->
+                <div class="col-lg-4">  
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Section -->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Gary McHugh 2020</small>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Learn On Your Own</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="@Url.Content("~/Content/img/portfolio/learnonyourown2.jpg")" alt="LearnOnYourOwn">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+                                    <strong>
+                                        Learn On Your Own
+                                    </strong> is a 3 tier Web Application which allows users to learn
+                                    new programming languages. The user can participate in various courses,
+                                    watching video tutorials and asking questions to the lecturer in a comment
+                                    section.
+                                    <br /><br />
+
+                                    <strong>Technologies used:</strong><br />
+                                    Java <br />
+                                    Spring Boot<br />
+                                    AngularJS<br />
+                                    HTML/CSS<br />
+                                    MongoDB
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/GaryMcHugh/LearnOnYourOwn" target="_blank">
+                                    Go To Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Design Patterns</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-laptop"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="@Url.Content("~/Content/img/portfolio/DesignP2.png")" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+                                    <strong>
+                                        Design Patterns
+                                    </strong>
+                                    is a GitHub repository that contains the various Design Patterns that I have coded in C# to demonstrate my understanding of the pattern.
+                                    The idea is to gradually add more Design Patterns to this repository as I code samples for them. My knowledge of Design Patterns is not limited to the ones contained in this repository.
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/GaryMcHugh/Design-Patterns" target="_blank">
+                                    Go To Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Portfolio</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-file-alt"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="@Url.Content("~/Content/img/portfolio/portfolio.jpg")" alt="Portfolio">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+                                    <strong>
+                                        Portfolio
+                                    </strong>
+                                    is this website you are looking at! I created this site to demonstrate my skills in C# Web Development.
+                                    I used a Bootstrap Template to create the views and integrated that into the MVC architecture.
+                                    I created an email service so that you can fill out the form below to reach out to me!
+                                    <br /><br />
+
+                                    <strong>Technologies used:</strong><br />
+                                    C# ASP.Net MVC<br />
+                                    HTML/CSS<br />
+                                    JavaScript<br />    
+                                    BootStrap<br />
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/GaryMcHugh/Portfolio" target="_blank">
+                                    Go To Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Simon Game</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-gamepad"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="@Url.Content("~/Content/img/portfolio/simon_game.png")" alt="SimonGame">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+                                    <strong>
+                                        Simon Game
+                                    </strong>
+                                    is a game I created using C# and XAML, the game is designed for windows devices.
+                                    I created this basic app in college as part of my Software Development degree.
+                                    The App was published on the windows Store is available for free to Download here:
+                                    <a href="https://www.microsoft.com/en-us/p/simon-game/9nblggh4n1vn?activetab=pivot:overviewtab" target="_blank">https://www.microsoft.com/en-us/p/simon-game/9nblggh4n1vn?activetab=pivot:overviewtab</a>
+                                    <br /><br />
+
+                                    <strong>Technologies used:</strong><br />
+                                    C# <br />
+                                    XAML<br />
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/GaryMcHugh/Mobile-Apps-Game-3rd-Year" target="_blank">
+                                    Go To Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">MediDB</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-heartbeat"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="@Url.Content("~/Content/img/portfolio/mediDB.jpg")" alt="MediDB">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+                                    <strong>
+                                        MediDB 
+                                    </strong>
+                                    is a 3 tier J2EE medical application. The application is designed for
+                                    use in a Hospital or Medical Centre. It allows users to add, delete and view
+                                    patients and doctors to a database through well designed forms.
+                                    <br /><br />
+
+                                    <strong>Technologies used:</strong><br />
+                                    Java <br />
+                                    Apache Tomcat<br />
+                                    HTML/CSS<br />
+                                    JDBC/ODBC connector<br />
+                                    MySQL
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/GaryMcHugh/Final-Year-Project-3rd-Year-" target="_blank">
+                                    Go To Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Techcrunch Tweeter</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="@Url.Content("~/Content/img/portfolio/techTweet2.png")" alt="TechcrunchTweeter">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+                                    <strong>
+                                        TechCrunch Tweeter 
+                                    </strong>
+                                    is a C# program that tweets the featured article from TechCrunch each morning at 9am.
+                                    I used Selenium to scrape Techcrunch for the featured Article and the Tweet Sharp library to send the tweet.
+                                    You can check out the twitter account here: 
+                                    <a href="https://twitter.com/TechC_Daily" target="_blank">https://twitter.com/TechC_Daily</a>
+                                    <br/><br/>
+
+                                    <strong>Technologies used:</strong><br/>
+                                    Selenium with C# <br/>
+                                    Tweet Sharp library<br/>
+                                    Batch file<br/>
+                                    Scheduled task
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/GaryMcHugh/TechcrunchTweeter" target="_blank">
+                                    Go To Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="@Url.Content("~/Content/vendor/jquery/jquery.min.js")"></script>
+    <script src="@Url.Content("~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js")"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="@Url.Content("~/Content/vendor/jquery-easing/jquery.easing.min.js")"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="@Url.Content("~/Content/js/jqBootstrapValidation.js")"></script>
+    <script src="@Url.Content("~/Content/js/contact_me.js")"></script>
+
+<!-- Custom scripts for this template -->
+    <script src="@Url.Content("~/Content/js/freelancer.min.js")"></script>
+
+</body>
+
+</html>
