@@ -12,4 +12,6 @@ This is a Portfolio Website that I have created for myself to showcase my Web De
 
 
 ### Video:
-<a href="https://www.youtube.com/embed/3l2arO6yFr4" target="_BLANK"></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=3l2arO6yFr4
+" target="_blank"><img src="http://img.youtube.com/vi/3l2arO6yFr4/0.jpg" 
+alt="YouTube Video" width="480" height="360" border="10" /></a>
