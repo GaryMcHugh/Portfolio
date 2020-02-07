@@ -12,4 +12,4 @@ This is a Portfolio Website that I have created for myself to showcase my Web De
 
 
 ### Video:
-[![Portfolio](http://img.youtube.com/vi/3l2arO6yFr4/0.jpg)](https://www.youtube.com/watch?v=3l2arO6yFr4 "Portfolio")
+<a href="https://www.youtube.com/embed/3l2arO6yFr4" target="_BLANK"></a>
